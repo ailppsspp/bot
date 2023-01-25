@@ -4,7 +4,7 @@
 
 error_reporting(0);
 //-------------------------
-define('API_KEY', 'توكن بوتك'); # توكنك
+define('API_KEY', '5920182038:AAGtbSy4slkQsN-C7MSCYhLe_1xbYOPVJj4'); # توكنك
 //-------------------------
 function bot($method, $datas=[]){
 	$url = "https://api.telegram.org/bot".API_KEY."/".$method;
